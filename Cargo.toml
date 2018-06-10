@@ -33,5 +33,7 @@ version = "0.7"
 optional = true
 
 [dependencies.openblas-src]
+git = "https://github.com/maciejkula/openblas-src"
+branch = "modified_build"
 version = "0.6"
 optional = true
